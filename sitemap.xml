@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.findyourmorocco.com/reviews.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/hero-desert.jpg</image:loc>
+      <image:title>Luxury Sahara desert tour — Merzouga dunes, Morocco</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/private-morocco-tours.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/riad.jpg</image:loc>
+      <image:title>Private Morocco tours — luxury riad</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/luxury-morocco-tours.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/hero-desert.jpg</image:loc>
+      <image:title>Luxury Morocco tours — Sahara dunes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/marrakech-luxury-tours.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/marrakech.jpg</image:loc>
+      <image:title>Marrakech luxury tours — Jemaa el-Fnaa at night</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/sahara-desert-luxury-experience.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/merzouga.jpg</image:loc>
+      <image:title>Sahara desert luxury experience — Merzouga</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/morocco-honeymoon-tours.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/chefchaouen.jpg</image:loc>
+      <image:title>Morocco honeymoon tours — Chefchaouen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/morocco-family-tours.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/fes.jpg</image:loc>
+      <image:title>Morocco family tours — Fes medina</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.findyourmorocco.com/10-day-morocco-itinerary.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.findyourmorocco.com/assets/hero-desert.jpg</image:loc>
+      <image:title>10-day Morocco itinerary — luxury private tour</image:title>
+    </image:image>
+  </url>
+</urlset>

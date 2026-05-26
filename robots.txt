@@ -1,0 +1,19 @@
+# Find Your Morocco — https://www.findyourmorocco.com
+# Licensed luxury Morocco tour operator
+
+User-agent: *
+Allow: /
+Disallow: /scripts/
+
+# AI crawlers — allow public marketing pages
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Crawl-delay not used (Google ignores); sitemap is authoritative
+Sitemap: https://www.findyourmorocco.com/sitemap.xml
