@@ -286,11 +286,10 @@
   </header>
 
   <main id="main">
-    <section class="hero" id="hero">
+    <section class="hero hero--premium" id="hero">
       <div class="hero__media">
         <img src="assets/hero-desert.jpg" alt="Luxury Sahara desert tour — golden Merzouga dunes at sunset, Morocco" class="hero__image" width="1920" height="1080" fetchpriority="high" decoding="async" />
         <div class="hero__overlay"></div>
-        
         <div class="hero__vignette" aria-hidden="true"></div>
       </div>
       <div class="hero__layout container">
@@ -309,7 +308,7 @@
           <p class="hero__subtitle reveal reveal--delay-3">Private Morocco travel across imperial cities, blue medinas and the Sahara — <a href="luxury-morocco-tours.html">luxury Morocco tours</a>, <a href="private-morocco-tours.html">private tours</a>, <a href="sahara-desert-luxury-experience.html">Sahara experiences</a> and <a href="marrakech-luxury-tours.html">Marrakech luxury tours</a> tailored to you.</p>
           <div class="hero__actions reveal reveal--delay-4">
             <a href="https://wa.me/212673628871?text=Hello%2C%20I%20would%20like%20to%20plan%20a%20luxury%20Morocco%20tour." class="btn btn--gold btn--lg" target="_blank" rel="noopener noreferrer">Plan Your Journey</a>
-            <a href="#packages" class="btn btn--outline btn--lg">View Luxury Tour Packages</a>
+            <a href="#featured-itineraries" class="btn btn--outline btn--lg">View Luxury Tour Packages</a>
           </div>
           <div class="hero__stats reveal reveal--delay-5">
             <article class="hero__stat-card"><span class="hero__stat-value">7+</span><span class="hero__stat-label">Iconic Destinations</span></article>
@@ -436,43 +435,124 @@
       </div>
     </section>
 
-    <section class="section packages" id="packages">
+    <section class="section featured-itineraries" id="featured-itineraries">
       <div class="container">
         <div class="section__header section__header--center reveal">
-          <span class="section__eyebrow section__eyebrow--ornate">Tour Packages</span>
+          <span class="section__eyebrow section__eyebrow--ornate">Featured Itineraries</span>
           <h2 class="section__title">Luxury Morocco Tour Packages</h2>
           <p class="section__subtitle">Every Morocco custom travel itinerary is fully private and tailored to you.</p>
         </div>
-        <div class="packages__grid">
-          <article class="package-card package-card--featured reveal" id="sahara-desert-tour">
-            <div class="package-card__badge">Most Popular</div>
-            <div class="package-card__image"><img src="assets/merzouga.jpg" alt="Luxury Sahara desert tour — Merzouga dunes and Morocco desert camp" width="700" height="440" loading="lazy" decoding="async" /></div>
-            <div class="package-card__body">
-              <span class="package-card__duration">3–5 Days</span>
+        <div class="featured-itineraries__grid">
+          <article class="itinerary-card itinerary-card--featured reveal" id="sahara-desert-tour">
+            <div class="itinerary-card__badge">Most Popular</div>
+            <div class="itinerary-card__image"><img src="assets/merzouga.jpg" alt="Luxury Sahara desert tour — Merzouga dunes and Morocco desert camp" width="700" height="440" loading="lazy" decoding="async" /></div>
+            <div class="itinerary-card__body">
+              <div class="itinerary-card__meta">
+                <span class="itinerary-card__duration">3–5 Days</span>
+                <span class="itinerary-card__price">From €1,200</span>
+              </div>
               <h3>Luxury Sahara Desert Tour</h3>
               <p>Merzouga dunes, camel trekking and a premium <a href="sahara-desert-luxury-experience.html">Sahara desert luxury experience</a> under the stars.</p>
-              <ul class="package-card__includes"><li>Private 4×4 transfer</li><li>Premium desert camp</li><li>Expert desert guide</li></ul>
-              <a href="https://wa.me/212673628871?text=Hello%2C%20Sahara%20Desert%20Escape" class="package-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
+              <ul class="itinerary-card__includes"><li>Private 4×4 transfer</li><li>Premium desert camp</li><li>Expert desert guide</li><li>Sunset camel trek</li></ul>
+              <a href="https://wa.me/212673628871?text=Hello%2C%20Sahara%20Desert%20Escape" class="itinerary-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
             </div>
           </article>
-          <article class="package-card reveal reveal--delay-1" id="marrakech-luxury-tour">
-            <div class="package-card__image"><img src="assets/riad.jpg" alt="Marrakech luxury tour — Moroccan riad and medina on a private Morocco travel itinerary" width="700" height="440" loading="lazy" decoding="async" /></div>
-            <div class="package-card__body">
-              <span class="package-card__duration">4–7 Days</span>
+          <article class="itinerary-card reveal reveal--delay-1" id="marrakech-luxury-tour">
+            <div class="itinerary-card__image"><img src="assets/riad.jpg" alt="Marrakech luxury tour — Moroccan riad and medina on a private Morocco travel itinerary" width="700" height="440" loading="lazy" decoding="async" /></div>
+            <div class="itinerary-card__body">
+              <div class="itinerary-card__meta">
+                <span class="itinerary-card__duration">4–7 Days</span>
+                <span class="itinerary-card__price">From €1,800</span>
+              </div>
               <h3>Marrakech Luxury Tour &amp; Imperial Cities</h3>
               <p><a href="marrakech-luxury-tours.html">Marrakech luxury tours</a>, Fes &amp; Casablanca — palaces, medinas, Moroccan riads &amp; gastronomy.</p>
-              <ul class="package-card__includes"><li>Luxury riad stays</li><li>Private city guides</li><li>Airport transfers</li></ul>
-              <a href="https://wa.me/212673628871?text=Hello%2C%20Imperial%20Cities" class="package-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
+              <ul class="itinerary-card__includes"><li>Luxury riad stays</li><li>Private city guides</li><li>Airport transfers</li><li>Cooking class</li></ul>
+              <a href="https://wa.me/212673628871?text=Hello%2C%20Imperial%20Cities" class="itinerary-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
             </div>
           </article>
-          <article class="package-card reveal reveal--delay-2" id="morocco-custom-travel">
-            <div class="package-card__image"><img src="assets/chefchaouen.jpg" alt="Morocco custom travel — Chefchaouen blue streets on a luxury Morocco vacation" width="700" height="440" loading="lazy" decoding="async" /></div>
-            <div class="package-card__body">
-              <span class="package-card__duration">7–14 Days</span>
+          <article class="itinerary-card reveal reveal--delay-2" id="morocco-custom-travel">
+            <div class="itinerary-card__image"><img src="assets/chefchaouen.jpg" alt="Morocco custom travel — Chefchaouen blue streets on a luxury Morocco vacation" width="700" height="440" loading="lazy" decoding="async" /></div>
+            <div class="itinerary-card__body">
+              <div class="itinerary-card__meta">
+                <span class="itinerary-card__duration">7–14 Days</span>
+                <span class="itinerary-card__price">From €2,500</span>
+              </div>
               <h3>Morocco Custom Travel — Grand Odyssey</h3>
               <p>Multi-city <a href="10-day-morocco-itinerary.html">Morocco luxury vacation</a>: coast, Atlas, Chefchaouen, Sahara &amp; beyond.</p>
-              <ul class="package-card__includes"><li>All destinations</li><li>Dedicated concierge</li><li>Flexible schedule</li></ul>
-              <a href="https://wa.me/212673628871?text=Hello%2C%20Grand%20Morocco%20Odyssey" class="package-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
+              <ul class="itinerary-card__includes"><li>All destinations</li><li>Dedicated concierge</li><li>Flexible schedule</li><li>Private experiences</li></ul>
+              <a href="https://wa.me/212673628871?text=Hello%2C%20Grand%20Morocco%20Odyssey" class="itinerary-card__link" target="_blank" rel="noopener noreferrer">Request Quote →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section desert-experiences" id="desert-experiences">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow section__eyebrow--ornate">Sahara Desert Luxury</span>
+          <h2 class="section__title">Desert Experiences</h2>
+          <p class="section__subtitle">Golden dunes, starlit nights and authentic Berber hospitality.</p>
+        </div>
+        <div class="desert-experiences__grid">
+          <article class="experience-card reveal">
+            <div class="experience-card__image"><img src="assets/merzouga.jpg" alt="Camel trekking in Merzouga Sahara desert" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Sunset Camel Trek</h3>
+              <p>Ride across golden Erg Chebbi dunes at sunset with experienced Berber guides.</p>
+              <a href="sahara-desert-luxury-experience.html" class="experience-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="experience-card reveal reveal--delay-1">
+            <div class="experience-card__image"><img src="assets/riad.jpg" alt="Luxury desert camp tent in Sahara" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Luxury Desert Camp</h3>
+              <p>En-suite tents with comfortable beds, private bathrooms and gourmet dining under the stars.</p>
+              <a href="sahara-desert-luxury-experience.html" class="experience-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="experience-card reveal reveal--delay-2">
+            <div class="experience-card__image"><img src="assets/atlas.jpg" alt="Stargazing in Sahara desert" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Desert Stargazing</h3>
+              <p>Experience crystal-clear night skies in the Sahara with guided astronomy experiences.</p>
+              <a href="sahara-desert-luxury-experience.html" class="experience-card__link">Learn More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section marrakech-experiences" id="marrakech-experiences">
+      <div class="container">
+        <div class="section__header section__header--center reveal">
+          <span class="section__eyebrow section__eyebrow--ornate">The Red City</span>
+          <h2 class="section__title">Marrakech Experiences</h2>
+          <p class="section__subtitle">Ancient medinas, palaces, and the magic of the Red City.</p>
+        </div>
+        <div class="marrakech-experiences__grid">
+          <article class="experience-card reveal">
+            <div class="experience-card__image"><img src="assets/marrakech.jpg" alt="Jemaa el-Fnaa square in Marrakech" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Private Medina Tours</h3>
+              <p>Explore the ancient medina with expert guides, hidden souks and local artisans.</p>
+              <a href="marrakech-luxury-tours.html" class="experience-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="experience-card reveal reveal--delay-1">
+            <div class="experience-card__image"><img src="assets/riad.jpg" alt="Luxury riad in Marrakech" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Luxury Riad Stays</h3>
+              <p>Handpicked boutique riads with traditional architecture and modern comforts.</p>
+              <a href="marrakech-luxury-tours.html" class="experience-card__link">Learn More →</a>
+            </div>
+          </article>
+          <article class="experience-card reveal reveal--delay-2">
+            <div class="experience-card__image"><img src="assets/atlas.jpg" alt="Atlas Mountains day trip from Marrakech" width="600" height="400" loading="lazy" decoding="async" /></div>
+            <div class="experience-card__content">
+              <h3>Atlas Mountains Day Trip</h3>
+              <p>Journey through Berber villages, waterfalls and stunning mountain landscapes.</p>
+              <a href="marrakech-luxury-tours.html" class="experience-card__link">Learn More →</a>
             </div>
           </article>
         </div>
@@ -581,7 +661,7 @@
         </div>
         <div class="reviews__actions reveal">
           <a href="https://www.tripadvisor.com/Attraction_Review-g304017-d34251819-Reviews-Find_Your_Morocco-Merzouga_Draa_Tafilalet.html" class="btn btn--gold" target="_blank" rel="noopener noreferrer" id="tripadvisorReadMore" data-tripadvisor>Read More on Tripadvisor</a>
-          <a href="reviews.html" class="btn btn--outline">View All Guest Reviews</a>
+          <a href="https://wa.me/212673628871?text=Hello%2C%20I%20would%20like%20to%20plan%20a%20luxury%20Morocco%20tour." class="btn btn--outline" target="_blank" rel="noopener noreferrer">Book Your Tour on WhatsApp</a>
         </div>
       </div>
     </section>
