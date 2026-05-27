@@ -1,0 +1,60 @@
+{
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog.html"
+    },
+    {
+      "source": "/reviews",
+      "destination": "/reviews.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
+    },
+    {
+      "source": "/terms-of-use",
+      "destination": "/terms-of-use.html"
+    },
+    {
+      "source": "/cookie-policy",
+      "destination": "/cookie-policy.html"
+    },
+    {
+      "source": "/private-morocco-tours",
+      "destination": "/private-morocco-tours.html"
+    },
+    {
+      "source": "/luxury-morocco-tours",
+      "destination": "/luxury-morocco-tours.html"
+    },
+    {
+      "source": "/marrakech-luxury-tours",
+      "destination": "/marrakech-luxury-tours.html"
+    },
+    {
+      "source": "/sahara-desert-luxury-experience",
+      "destination": "/sahara-desert-luxury-experience.html"
+    },
+    {
+      "source": "/morocco-honeymoon-tours",
+      "destination": "/morocco-honeymoon-tours.html"
+    },
+    {
+      "source": "/morocco-family-tours",
+      "destination": "/morocco-family-tours.html"
+    },
+    {
+      "source": "/10-day-morocco-itinerary",
+      "destination": "/10-day-morocco-itinerary.html"
+    },
+    {
+      "source": "/index",
+      "destination": "/index.html"
+    }
+  ]
+}
