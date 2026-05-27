@@ -9,6 +9,10 @@
       "destination": "/blog.html"
     },
     {
+      "source": "/blog/:path*",
+      "destination": "/blog/:path*.html"
+    },
+    {
       "source": "/reviews",
       "destination": "/reviews.html"
     },
