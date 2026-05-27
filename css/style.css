@@ -495,6 +495,32 @@ textarea {
   min-height: 110dvh;
 }
 
+.hero--luxury {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.hero__trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.hero__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.hero__trust-icon {
+  color: var(--color-gold);
+  font-weight: 700;
+}
+
 .hero__media {
   position: absolute;
   inset: 0;
@@ -1643,6 +1669,278 @@ textarea {
 
 .experience-card__link:hover {
   color: var(--color-champagne);
+}
+
+/* --------------------------------------------------------------------------
+   Featured luxury tours
+   -------------------------------------------------------------------------- */
+.featured-luxury-tours {
+  background: var(--color-bg-elevated);
+}
+
+.featured-luxury-tours__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.luxury-tour-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--duration-fast) var(--ease-in-out),
+    transform var(--duration-fast) var(--ease-out-expo),
+    box-shadow var(--duration-fast) var(--ease-in-out);
+}
+
+.luxury-tour-card:hover {
+  border-color: var(--color-border-strong);
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-soft);
+}
+
+.luxury-tour-card__image {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--color-bg-elevated);
+}
+
+.luxury-tour-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.luxury-tour-card:hover .luxury-tour-card__image img {
+  transform: scale(1.05);
+}
+
+.luxury-tour-card__content {
+  padding: 1.75rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.luxury-tour-card__content h3 {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.luxury-tour-card__content p {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+.luxury-tour-card__link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  transition: color var(--duration-fast) var(--ease-in-out);
+  align-self: flex-start;
+}
+
+.luxury-tour-card__link:hover {
+  color: var(--color-champagne);
+}
+
+/* --------------------------------------------------------------------------
+   Luxury experiences
+   -------------------------------------------------------------------------- */
+.luxury-experiences {
+  background: var(--color-bg);
+}
+
+.luxury-experiences__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.luxury-experience-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--duration-fast) var(--ease-in-out),
+    transform var(--duration-fast) var(--ease-out-expo),
+    box-shadow var(--duration-fast) var(--ease-in-out);
+}
+
+.luxury-experience-card:hover {
+  border-color: var(--color-border-strong);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.luxury-experience-card__image {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: var(--color-bg-elevated);
+}
+
+.luxury-experience-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out-expo);
+}
+
+.luxury-experience-card:hover .luxury-experience-card__image img {
+  transform: scale(1.05);
+}
+
+.luxury-experience-card__content {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.luxury-experience-card__content h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+.luxury-experience-card__content p {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.luxury-experience-card__link {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  transition: color var(--duration-fast) var(--ease-in-out);
+  align-self: flex-start;
+}
+
+.luxury-experience-card__link:hover {
+  color: var(--color-champagne);
+}
+
+/* --------------------------------------------------------------------------
+   Why choose
+   -------------------------------------------------------------------------- */
+.why-choose {
+  background: var(--color-bg-elevated);
+}
+
+.why-choose__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.why-choose-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--duration-fast) var(--ease-in-out),
+    transform var(--duration-fast) var(--ease-out-expo),
+    box-shadow var(--duration-fast) var(--ease-in-out);
+}
+
+.why-choose-card:hover {
+  border-color: var(--color-border-strong);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+
+.why-choose-card__icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: var(--color-gold);
+}
+
+.why-choose-card__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.why-choose-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+.why-choose-card p {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------------
+   CTA banner luxury
+   -------------------------------------------------------------------------- */
+.cta-banner--luxury {
+  min-height: 60vh;
+  min-height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta-banner--luxury .cta-banner__inner {
+  max-width: 800px;
+}
+
+.cta-banner--luxury h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.cta-banner--luxury p {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.cta-banner__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* --------------------------------------------------------------------------
@@ -3372,6 +3670,16 @@ textarea {
   .marrakech-experiences__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .featured-luxury-tours__grid,
+  .luxury-experiences__grid,
+  .why-choose__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__trust {
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 640px) {
@@ -3408,6 +3716,25 @@ textarea {
   .desert-experiences__grid,
   .marrakech-experiences__grid {
     grid-template-columns: 1fr;
+  }
+
+  .featured-luxury-tours__grid,
+  .luxury-experiences__grid,
+  .why-choose__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__trust {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .cta-banner__actions {
+    flex-direction: column;
+  }
+
+  .cta-banner__actions .btn {
+    width: 100%;
   }
 
   .seo-cta-strip__inner {
