@@ -4770,3 +4770,19 @@ select[multiple] option:checked {
 svg[viewBox="0 0 24 24"][fill="currentColor"] path[d^="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967"] {
     display: none !important;
 }
+.tripadvisor-badge {
+    position: fixed;
+    right: 22px;
+    bottom: 145px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #d4af37;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 9999;
+    font-size: 13px;
+}
