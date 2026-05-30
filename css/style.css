@@ -4948,3 +4948,235 @@ select[multiple] option:checked {
 svg[viewBox="0 0 24 24"][fill="currentColor"] path[d^="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967"] {
     display: none !important;
 }
+
+/* ==========================================================================
+   Find Your Morocco — High-Conversion Redesign Modern Classic Additions
+   ========================================================================== */
+
+/* Modern Classic styling variables */
+:root {
+  --color-charcoal: #1a1a1a;
+  --color-off-white: #f5f5f5;
+  --color-royal-gold: #d4af37;
+}
+
+/* Light / Dark Section Toggles */
+.section--light {
+  background-color: var(--color-off-white) !important;
+  color: var(--color-charcoal) !important;
+}
+
+.section--light .section__title {
+  color: var(--color-charcoal) !important;
+}
+
+.section--light .section__subtitle {
+  color: rgba(26, 26, 26, 0.75) !important;
+}
+
+.section--light .section__eyebrow {
+  color: var(--color-gold-dark) !important;
+}
+
+/* Process Section */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-lg);
+  margin-top: var(--gap-xl);
+}
+
+@media (max-width: 768px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: var(--gap-md);
+  }
+}
+
+.process-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  padding: 2.5rem;
+  border-radius: var(--radius-md);
+  position: relative;
+  transition: transform var(--duration-fast) var(--ease-out-expo), border-color var(--duration-fast) var(--ease-in-out);
+}
+
+.process-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-gold);
+}
+
+.section--light .process-card {
+  background: white;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.section--light .process-card:hover {
+  border-color: var(--color-gold);
+}
+
+.process-card__number {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.process-card__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+.section--light .process-card__title {
+  color: var(--color-charcoal);
+}
+
+.process-card__text {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.section--light .process-card__text {
+  color: rgba(26, 26, 26, 0.65);
+}
+
+/* Value block */
+.value-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-xl);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .value-block {
+    grid-template-columns: 1fr;
+    gap: var(--gap-lg);
+  }
+}
+
+.value-block__content h3 {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.value-block__content p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+}
+
+/* Founder's guarantee section */
+.guarantee-block {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  gap: var(--gap-xl);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .guarantee-block {
+    grid-template-columns: 1fr;
+    gap: var(--gap-lg);
+  }
+}
+
+.guarantee-image-wrap {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-luxury);
+  border: 1px solid var(--color-border);
+}
+
+.guarantee-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.guarantee-quote {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--color-text);
+  border-left: 3px solid var(--color-gold);
+  padding-left: 1.5rem;
+}
+
+.section--light .guarantee-quote {
+  color: var(--color-charcoal);
+}
+
+.guarantee-signature {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-gold);
+}
+
+.guarantee-email {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.section--light .guarantee-email {
+  color: rgba(26, 26, 26, 0.7);
+}
+
+/* Email details bar */
+.email-highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px dashed var(--color-gold);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-gold-light);
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+/* Float custom styling */
+.tripadvisor-float {
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(0, 175, 135, 0.35);
+}
+
+.instagram-f {
+  z-index: 9999;
+  box-shadow: 0 10px 30px rgba(214, 36, 159, 0.35);
+}
+
+/* Fixes for form elements under light theme */
+.section--light input,
+.section--light select,
+.section--light textarea {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: var(--color-charcoal);
+}
+
+.section--light input:focus,
+.section--light select:focus,
+.section--light textarea:focus {
+  border-color: var(--color-gold);
+}
+
+.section--light .form-step__title {
+  color: var(--color-charcoal);
+}

@@ -235,7 +235,7 @@
         formData.additionalMessage || "None"
       ].join("\n");
 
-      var mailtoUrl = "mailto:info@findyourmorocco.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+      var mailtoUrl = "mailto:Yassine.elyamani.sg@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
       window.location.href = mailtoUrl;
     }
 
